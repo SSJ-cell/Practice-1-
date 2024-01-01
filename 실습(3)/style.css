@@ -1,0 +1,152 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #312C4F;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    height: 4%;
+    padding: 1% 0;
+    font-size: auto;
+    background-color: #222133;
+    display: flex;
+    justify-content:center;
+    column-gap: 1.25rem;
+}
+
+#moori {
+    width: auto;
+    height: 100%;
+    border: 1px solid #222133;
+    border-radius: 50%;
+}
+
+#title {
+    font-size: 1.2vw;
+    align-self: center;
+}
+
+#tt {
+    text-decoration: none;
+    color: white;
+}
+
+#nav {
+    width: 100%;
+    height: 3%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25em;
+    box-sizing:border-box
+}
+
+.b {
+    height: 100%;
+    padding: 0px 10px;;
+    font-size: 0.7vw;
+    background-color: #030305;
+    border: 0px solid #030305;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.b:hover {
+    background-color: #161622;
+}
+
+.tab {
+    height: 100%;
+    text-decoration: none;
+    color: white;   
+}
+
+#container {
+    width: 70%;
+    margin: 0 15%;
+    padding: 2.5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#book {
+    width: 470px;
+    flex-basis: 35%;
+}
+
+#article {
+    width: 806px;
+    row-gap: 2em;
+    line-height: 180%;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#article::first-line {
+    
+}
+
+.a{ 
+    color: grey;
+    padding-right: 5px
+}
+
+#section {
+    column-gap: 1.5em;
+    display: flex;
+
+}
+
+#articleII {
+    font-size: 0.9em;
+}
+
+.c {    
+    color: white;
+    padding-right: 5px;
+}
+
+.d {
+    font-size: 0.9em;
+}
+
+#format {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footer {
+    width: 100%;
+    height: 4%;
+    padding: 1% 0;
+    background-color: #222133;
+    display: flex;
+    justify-content: center;
+}
+
+#ft {
+    height: 100%;
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#copy {
+    display: flex;
+}
+
+#repo {
+    display: flex;
+    
+}
+
+.f {
+    margin-right: 10px;
+}
