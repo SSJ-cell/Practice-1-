@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>   
+    </head>
+    <body>
+        <blockquote cite="https://naver.com">
+            <pre>
+            <del>블록쿼트 태그는 블록태그입니다.</del>
+            긴 인용문을 작성할 때 적합합니다.
+            <ins><cite>해달별, HTML5독학백서, 2020</cite></ins>
+            </pre>
+        </blockquote>
+        <!--폼/인풋 연습-->
+        <h3>금융사관학교 로그인</h3>
+        <form>
+            <label for="아이디"><sup>*</sup>아이디</label>
+            <input type="text" id="아이디" placeholder="아이디" required><br/>
+            <label for="패스워드"><sup>*</sup>패스워드</label>
+            <input type="text" id="패스워드" placeholder="패스워드" required><br/>
+            <input type="submit" value="로그인">
+            <input type="submit" value="회원가입"><br/>
+            <input type="reset"><br/>
+
+            <label for="남">남</label>
+            <input type="radio" id="남" name="gender"/>
+            <label for="여">여</label>
+            <input type="radio" id="여" name="gender"/><br/>
+
+            <label for="kr">한국어</label>
+            <input type="checkbox" id="kr" name="language"/>
+            <label for="en">영어</label>
+            <input type="checkbox" id="en" name="language"/>
+            <label for="jp">일본어</label>
+            <input type="checkbox" id="jp" name="language"/><br/><br/>
+
+            <label for="platform">운영체제 선택</label>
+            <input list="mobile-platform" id="platform"/>
+                <datalist id="mobile-platform">
+                    <option value="안드로이드"></option>
+                    <option value="IOS"></option>
+                    <option value="기타"></option>
+                </datalist>
+        </form>
+        <!--이미지/비디오/오디오 연습-->
+        <br/><img width="620" height="1400" src="../금융사관학교 홍보 포스터.png" alt="금융사관학교"/>
+    </body>
