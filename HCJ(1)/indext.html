@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="charset" content="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>환율 계산기</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <div class="main">    
+            <div class="content">
+                <div class="dropdown">
+                    <button class="dropbt" id="from-button">KRW</button>
+                    <div class="dropdown-content" id="from-list">
+                        <a href="#">KRW</a>
+                        <a href="#">USD</a>
+                        <a href="#">VND</a>
+                    </div>
+                </div>
+                <div class="input-currency">
+                    <input class="currency" id="from-input" type="number" placeholder="금액을 입력하세요." onkeyup="toConvert()"/>
+                    <div id="from-unit" class="currency-unit"></div>
+                </div>
+            </div>
+            <div>
+                <h1 id="equal">=</h1>
+            </div>
+            <div class="content">
+                <div class="dropdown">
+                    <button class="dropbt" id="to-button">KRW</button>
+                    <div class="dropdown-content" id="to-list">
+                        <a href="#">KRW</a>
+                        <a href="#">USD</a>
+                        <a href="#">VND</a>
+                    </div>
+                </div>
+                <div class="input-curruency" >
+                    <input class="currency" id="to-input" type="number" placeholder="금액을 입력하세요." onkeyup="fromConvert()"/>
+                    <div id="to-unit" class="currency-unit"></div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>    
+    </body>
+</html>
